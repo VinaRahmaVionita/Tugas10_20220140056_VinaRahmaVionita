@@ -1,0 +1,105 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Container Styles */
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #3998a5;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #1a337d;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px 10px 0 0;
+}
+
+.header h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Form Styles */
+
+form {
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+input[type="text"], input[type="radio"], select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+label[for="programing"], label[for="desain"], label[for="jaringan"], label[for="data"] {
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+
+/* Button Styles */
+
+button[type="submit"] {
+  background-color: #1548b7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #2072d6;
+}
+
+/* Flatpickr Styles */
+
+.flatpickr-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Add margin between "Peminatan pada bidang" text and radio buttons */
+
+.peminatan-text {
+  margin-bottom: 10px;
+}
